@@ -1,0 +1,131 @@
+/*
+Palette: https://coolors.co/a27228-363364-2e3248-999996-3d2d34
+GOLDEN BROWN: #A27228
+DELFT BLUE: #363364
+SPACE CADET: #2E3248
+BATTLESHIP GRAY: #999996
+RAISIN BLACK: #3D2D34
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Verdana, sans-serif;
+    color: white;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    overflow-x: ;
+    overflow-y: ;
+}
+
+#hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/images/a3k.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding: 200px 0 240px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#activities {
+    background-color: #A27228;
+    height: 340px;
+}
+
+#flex {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(#A27228, white);
+    margin: 0 auto;
+
+}
+
+#activities-title {
+    background-color: #A27228;
+    margin: 0 0 10px 0;
+    padding-top: 10px;
+}
+
+.img-description {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.img-text {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.container {
+    width: 240px;
+    padding: 20px;
+    background-color: #3D2D34;
+    border-radius: 10px;
+}
+
+.activities-img {
+    width:230px;
+    height:230px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#img-john:hover {
+    content: url("/images/john_frost.jpg");
+}
+
+#img-museum:hover {
+    content: url("/images/Museum.jpg"); 
+}
+
+#img-park:hover {
+    content: url("/images/Fietsers_Robbert_Maas.jpg"); 
+}
+
+#guide-wrapper {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    }
+
+#guide {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #363364;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom: 8px solid #A27228;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#avatar {
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#guide-description {
+    padding: 4px;
+}
+
+#guide-title {
+    font-size: 24px;
+    font-weight: 700;
+}    
+
+#guide-text {
+    font-style: italic;
+    padding: 6px;
+}
+
+#guide-name {
+    font-weight: 700;
+}
