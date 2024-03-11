@@ -14,17 +14,8 @@ body {
     color: white;
 }
 
-img {
-    width: 200px;
-    height: 200px;
-    overflow-clip-margin: content-box;
-    overflow: clip;
-    overflow-x: ;
-    overflow-y: ;
-}
-
 #hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/images/a3k.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/a3k.jpg');
     background-size: auto;
     background-repeat: no-repeat;
     padding: 200px 0 240px 0;
@@ -44,13 +35,21 @@ img {
     justify-content: space-around;
     background: linear-gradient(#A27228, white);
     margin: 0 auto;
-
 }
 
 #activities-title {
     background-color: #A27228;
     margin: 0 0 10px 0;
     padding-top: 10px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    overflow-x: ;
+    overflow-y: ;
 }
 
 .img-description {
@@ -78,15 +77,15 @@ img {
 }
 
 #img-john:hover {
-    content: url("/images/john_frost.jpg");
+    content: url('../images/John_frost.jpg');
 }
 
 #img-museum:hover {
-    content: url("/images/Museum.jpg"); 
+    content: url('../images/Museum.jpg'); 
 }
 
 #img-park:hover {
-    content: url("/images/Fietsers_Robbert_Maas.jpg"); 
+    content: url('../images/Fietsers_Robbert_Maas.jpg'); 
 }
 
 #guide-wrapper {
