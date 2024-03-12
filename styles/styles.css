@@ -57,6 +57,7 @@ img {
 }
 
 .img-description {
+    text-shadow: 0px 8px 8px black;
     font-weight: 700;
     font-size: 18px;
 }
