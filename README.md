@@ -1,7 +1,7 @@
 # My Hometown
 
 ## Scrimba - Module 2 Solo project - My Hometown
-<br>
+Een statische website (HTML/CSS) over *My Hometown*, met styling, responsive kenmerken en toegankelijkheid in gedachten.
 <br>
 https://wvdh.github.io/My-Hometown/
 <br>
