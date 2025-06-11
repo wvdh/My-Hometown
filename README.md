@@ -1,6 +1,7 @@
-#My Hometown Arnhem
+# My Hometown
+
+## Scrimba - Module 2 Solo project - My Hometown
 <br>
-Scrimba Module 2 Solo project - My Hometown
 <br>
 https://wvdh.github.io/My-Hometown/
 <br>
